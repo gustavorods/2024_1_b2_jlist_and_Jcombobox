@@ -40,7 +40,7 @@ public class CalcularHoras extends JFrame {
         tempoEmpregadoLabel = new JLabel("Quanto tempo está trabalhando:");
         linguagemPrincipalLabel = new JLabel("Sua linguagem de programação principal:");
 
-        // Criando os JComboBox
+        // Criando os JComboBox e JList
         idade = new JComboBox<>(idadeArray);
         empregado = new JComboBox<>(empregadoArray);
         tempoEmpregado = new JComboBox<>(tempoArray);
